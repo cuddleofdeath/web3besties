@@ -80,7 +80,7 @@ export default function Home() {
           <p>
             Made with ❤️ from{' '}
             <a href='https://www.twitter.com/cuddleofdeath'>Cuddleofdeath</a>{' '}
-            2023
+            {new Date().getFullYear()}
           </p>
         </footer>
       </div>

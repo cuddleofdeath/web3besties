@@ -55,7 +55,7 @@ const Navbar = () => {
             <a>About</a>
           </li>
           <li tabIndex={0}>
-            <a href='/guides'>Guides</a>
+            <Link href='/guides'>Guides</Link>
           </li>
           <li>
             <a>Roadmap</a>

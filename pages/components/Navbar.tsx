@@ -30,18 +30,12 @@ const Navbar = () => {
               <a>About</a>
             </li>
             <li tabIndex={0}>
-              <a className='justify-between'>Guides</a>
-              <ul className='p-2'>
-                <li>
-                  <a>❤️ Guide 1</a>
-                </li>
-                <li>
-                  <a>🥳 Guide 2</a>
-                </li>
-              </ul>
+              <Link href='/guides' className='justify-between'>
+                Guides
+              </Link>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>Roadmap</a>
             </li>
           </ul>
         </div>

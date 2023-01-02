@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -44,9 +45,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href='/' className='btn btn-ghost normal-case text-xl'>
+        <Link href='/' className='btn btn-ghost normal-case text-xl'>
           web3besties
-        </a>
+        </Link>
       </div>
       <div className='navbar-center hidden lg:flex'>
         <ul className='menu menu-horizontal px-1'>

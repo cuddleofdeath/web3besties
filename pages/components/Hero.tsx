@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 const Hero = () => {
   return (
     <div
-      id='content'
       className='hero min-h-screen z-10'
       style={{ backgroundImage: 'url(/hero.png)' }}
     >
@@ -14,10 +13,10 @@ const Hero = () => {
           <h1 className='mb-5 text-5xl font-bold text-white '>
             Learn web3 with us!
           </h1>
-          <p id='clicktest' className='mb-5 text-white'>
+          <div className='mb-5 text-white'>
             Web3Besties is currently being built from the ground up. Courses
             launching in 2023. Newsletter is already live!
-          </p>
+          </div>
           <a href='https://web3besties.substack.com'>
             <button className='btn btn-primary'>View Newsletter</button>
           </a>
